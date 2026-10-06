@@ -1,0 +1,14 @@
+# Dependencies and build output (Vercel rebuilds these)
+node_modules/
+dist/
+
+# Local environment and secrets: never commit
+.env
+.env.*
+!.env.example
+.vercel
+
+# Logs and OS files
+*.log
+.DS_Store
+*.tsbuildinfo
